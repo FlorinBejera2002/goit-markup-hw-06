@@ -46,7 +46,7 @@ body {
     border: 1px solid var(--hover-color);
 }
 
-.form-item svg:focus{
+.form-item svg:focus {
     transition: var(--efect-transition);
     cursor: pointer;
     fill: var(--hover-color);
@@ -269,13 +269,13 @@ body {
 
 .navigation-list .border-after::after {
     content: "";
-        border: 2px solid var(--hover-color);
-        width: 100%;
-        position: absolute;
-        bottom: -39px;
-        border-radius: 4px;
-        visibility: visible;
-        left: 0;
+    border: 2px solid var(--hover-color);
+    width: 100%;
+    position: absolute;
+    bottom: -39px;
+    border-radius: 4px;
+    visibility: visible;
+    left: 0;
 }
 
 .logo-portfolio-header {
@@ -598,6 +598,63 @@ body {
 }
 
 /*footer*/
+.button-subscribe {
+   border: none;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1, 87;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    gap: 25px;
+    letter-spacing: 0.06em;
+    color: var(--focus-color);
+    background: var(--hover-color);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    padding: 10px 28px 10px 43px;
+}
+
+.input-item input {
+    outline: none;
+    width: 358px;
+    height: 50px;
+    background:var(--footer-background);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+    border-radius: 4px;
+    padding-left: 16px;
+}
+
+.container-subscribe form {
+    display: flex;
+    gap: 12px;
+}
+
+.container-subscribe {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.container-subscribe h3 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1, 14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--focus-color);
+}
+
+.container-footer {
+    display: flex;
+    gap: 94px;
+}
+
 .footer {
     width: auto;
     height: 251px;
@@ -634,7 +691,7 @@ body {
     font-size: 14px;
     line-height: 16px;
     letter-spacing: 0.03em;
-    padding-right: 94px;
+
 }
 
 .address-portfolio div div a:hover,
@@ -659,7 +716,7 @@ body {
 .icons-footer-container {
     display: flex;
     flex-direction: column;
-    padding: 75px auto 96px 94px;
+    padding: 72px auto 99px auto;
 }
 
 .icons-footer-container h2 {
