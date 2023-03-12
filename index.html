@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!-- <!DOCTYPE html> -->
 <html lang="en">
 
 <head>
@@ -15,10 +15,11 @@
 </head>
 
 <body>
+    <!-- Backdrop -->
     <div class="backdrop is-hidden" data-modal>
         <div class="modal">
             <button class="close-back" data-modal-close>
-                <svg  width="11" ; height="11px">
+                <svg width="11" ; height="11px">
                     <use href="./images/icons.svg#close-black"></use>
                 </svg>
             </button>
@@ -59,13 +60,14 @@
                     I agree with the letter and accept the<a href=""> Terms and Conditions</a>
                 </label>
 
-                <label class="button-submit-modal">
-                    <input type="submit" name="submit">
-                    <span class="button-send">Send</span>
-                </label>
+
+                <button type="submit" class="button-send">
+                    Send
+                </button>
             </form>
         </div>
     </div>
+    <!-- Header -->
     <header clas="header-navigation">
         <div class="container header-portfolio ">
             <a class="logo-portfolio-header" href=""> Web</a>
@@ -95,7 +97,6 @@
 
 
     <main>
-
         <!--hero.section-->
         <section class="hero-section section">
             <div class="container">
@@ -302,6 +303,7 @@
                 </div>
             </div>
         </section>
+        <!-- Regular Customers section -->
         <section class="regular-customers section">
             <div class="container">
                 <h2>Regular Customers</h2>
@@ -344,22 +346,28 @@
     <!--footer section-->
     <footer class="footer-portfolio footer section">
         <div class="container ">
-            <a class="logo-portfolio-footer" href="">Web</a>
-            <br>
-            <br>
-            <div class="footer-section">
-                <address class="address-portfolio">
-                    <div class="unstyled-list">
-                        <div><a class="link location-portfolio"
-                                href="https://www.google.com/search?q=695+park+ave%2C+ny+10065%2C+usa&biw=1846&bih=984&sxsrf=AJOqlzVu7VdZB7asiKhwStu5jv6PtFyENw%3A1675587572785&ei=9G_fY9m_L6iE9u8P3NWTkAI&oq=695+Park+Ave%2C+NY+10065%2C+US&gs_lcp=Cgxnd3Mtd2l6LXNlcnAQARgAMgcIIxCwAxAnMgoIABBHENYEELADMgoIABBHENYEELADMgoIABBHENYEELADMgoIABBHENYEELADMgoIABBHENYEELADMgoIABBHENYEELADMgoIABBHENYEELADMgoIABBHENYEELADSgQIQRgASgQIRhgAUABYAGDvGGgBcAF4AIABAIgBAJIBAJgBAMgBCcABAQ&sclient=gws-wiz-serp">
-                                695 Park Ave, NY 10065, USA</a></div>
-                        <br>
-                        <div><a class="link contact-portfolio" href="mailto:info@devstudio.com">info@devstudio.com </a>
+            <!-- first-section -->
+            <div>
+                <a class="logo-portfolio-footer" href="">Web</a>
+                <br>
+                <br>
+                <div class="footer-section">
+                    <!-- Address -->
+                    <address class="address-portfolio">
+                        <div class="unstyled-list">
+                            <div><a class="link location-portfolio"
+                                    href="https://www.google.com/search?q=695+park+ave%2C+ny+10065%2C+usa&biw=1846&bih=984&sxsrf=AJOqlzVu7VdZB7asiKhwStu5jv6PtFyENw%3A1675587572785&ei=9G_fY9m_L6iE9u8P3NWTkAI&oq=695+Park+Ave%2C+NY+10065%2C+US&gs_lcp=Cgxnd3Mtd2l6LXNlcnAQARgAMgcIIxCwAxAnMgoIABBHENYEELADMgoIABBHENYEELADMgoIABBHENYEELADMgoIABBHENYEELADMgoIABBHENYEELADMgoIABBHENYEELADMgoIABBHENYEELADMgoIABBHENYEELADSgQIQRgASgQIRhgAUABYAGDvGGgBcAF4AIABAIgBAJIBAJgBAMgBCcABAQ&sclient=gws-wiz-serp">
+                                    695 Park Ave, NY 10065, USA</a></div>
+                            <br>
+                            <div><a class="link contact-portfolio" href="mailto:info@devstudio.com">info@devstudio.com
+                                </a>
+                            </div>
+                            <br>
+                            <div><a class="link contact-portfolio" href="tel:+1-212-772-4150"> +1 212-772-4150</a></div>
                         </div>
-                        <br>
-                        <div><a class="link contact-portfolio" href="tel:+1-212-772-4150"> +1 212-772-4150</a></div>
-                    </div>
-                </address>
+                    </address>
+                </div>
+                <!-- icon contact -->
                 <div>
                     <ul class="icons-footer-container unstyled-list">
                         <h2>Find us on</h2>
