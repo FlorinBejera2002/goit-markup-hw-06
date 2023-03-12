@@ -40,16 +40,13 @@ body {
 }
 
 /* Backdeop */
-
 .form-item input:focus,
-.form-item textarea:focus {
-    border: 1px solid var(--hover-color);
+.form-item textarea:focus{
+    border:1px solid var(--hover-color);
 }
 
-.form-item svg:focus {
-    transition: var(--efect-transition);
-    cursor: pointer;
-    fill: var(--hover-color);
+.form-item input:focus+svg{
+   fill: var(--hover-color);
 }
 
 .form-item input {
