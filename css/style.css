@@ -40,9 +40,10 @@ body {
 }
 
 /* Backdeop */
-.form-item input:focus+svg {
+.form-item:focus{
+    
     fill: var(--hover-color);
-    border-color: var(--hover-color);
+    
 }
 
 .form-item {
@@ -123,6 +124,12 @@ body {
     height: 16px;
     border: 2px solid var(--icon-color);
     border-radius: 2px;
+}
+
+.form-modal {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
 }
 
 .form-modal input[type="checkbox"]:checked+.replace-checkbox {
