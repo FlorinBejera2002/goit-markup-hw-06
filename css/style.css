@@ -42,11 +42,13 @@ body {
 /* Backdeop */
 .form-item input:focus,
 .form-item textarea:focus{
+        transition: var(--efect-transition);
     border:1px solid var(--hover-color);
 }
 
 .form-item input:focus+svg{
    fill: var(--hover-color);
+transition: var(--efect-transition);
 }
 
 .form-item input {
